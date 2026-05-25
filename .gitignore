@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!docker-compose.yaml
+!entity_resolution.ipynb
+!entity_resolution.py
+!main.py
+!README.md
+!requirements.txt
+!test_api.py
+!.gitignore

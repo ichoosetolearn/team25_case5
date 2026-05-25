@@ -1,0 +1,24 @@
+---
+name: entity_resolution
+services:
+  er:
+    container_name: er
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - er_data:/usr/src/app
+    ports:
+      - 8000:8000
+    deploy:
+      resources:
+        limits:
+          cpus: 3
+          memory: 7000M
+        reservations:
+          cpus: 2
+          memory: 5000M
+      
+volumes:
+  er_data:
