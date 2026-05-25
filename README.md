@@ -65,3 +65,5 @@
 - `POST /search` — поиск топ-K похожих записей (FAISS + LightGBM реранкинг)
 - `POST /check_duplicate` — вероятность дублирования для пары строк
 - `POST /deduplicate_batch` — пакетная кластеризация с генерацией cluster_id
+
+Презентация: https://docs.google.com/presentation/d/1TXr-p3JM3RuIlZLWlFIH1x9EfEXSPdps/edit?slide=id.g3e4829356cd_0_42#slide=id.g3e4829356cd_0_42
